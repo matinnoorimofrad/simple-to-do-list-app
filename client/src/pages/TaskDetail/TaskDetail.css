@@ -1,0 +1,52 @@
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    flex: 1 1 600px;
+    max-width: 900px;
+    height: 600px;
+    margin: 250px 30px 250px 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    border: 3px solid rgba(128, 0, 32,0.9);
+    border-radius: 10px;
+}
+
+.task-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+
+.task-action-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.task-action-buttons button {
+    padding: 16px 20px;
+    border: 2px solid rgba(128, 0, 32,0.9);
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    transition: 0.4s;
+}
+
+.task-action-buttons button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1445px) {
+    .task-container {
+        margin: 250px 30px;
+    }
+}
+
+
+
+  

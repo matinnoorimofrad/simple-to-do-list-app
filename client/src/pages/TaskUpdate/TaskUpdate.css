@@ -1,0 +1,63 @@
+.update-box {
+    max-width: 500px;
+    flex: 1 1 400px;
+    margin: 230px 30px 0px 650px;
+    background-color: white;
+    border: 3px solid #800020;
+    border-radius: 15px;
+
+}
+
+.update-box label {
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #800020;
+    font-size: 28px;
+}
+
+.update-box input {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border: 2px solid;
+    font-size: 24px;
+    width: 300px;
+}
+
+.update-box textarea {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border: 2px solid;
+    font-size: 24px;
+    width: 300px;
+    resize: none;
+    
+}
+
+.update-box button {
+    display: block;
+    margin: 20px 190px;
+    padding: 10px 25px;
+    border: 2px solid #800020;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(84, 84, 250);
+    font-size: 20px;
+}
+
+.update-box button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@media (max-width: 1180px) {
+    .update-box {
+       margin: 230px 30px 0px 300px; 
+    }
+}
+
+@media (max-width: 835px) {
+    .update-box {
+        margin: 230px 30px 0px 30px;
+    }
+}
